@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="nav-1">
+
+      <h1>Library System</h1>
+      <ul class="left-links">
+        <li><a href="#Books">Book</a></li>
+        <li><a href="#Register">Register</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#logout">Logout</a></li>
+    </ul>
+   </nav>
+
+   <section class="Books">
+    <h2>Books</h2>
+    <table id="Books">
+            <tr>
+                <th class="bok-3">Book ID</th>
+                <th class="bok-3">Title</th>
+                <th class="bok-3">Author</th>
+                <th class="bok-3">Genre</th>
+                <th class="bok-3">Availablity</th>
+            </tr>
+        <tbody>
+            <tr>
+                <td class="bok-3">1</td>
+                <td class="bok-3">JAVA CORE<br>Publication date:2000<br>Page count :120<br>ISBN :-3234355</td>
+                <td class="bok-3">The Great Gatsby</td>
+                <td class="bok-3">Genration 1</td>
+                <td class="bok-3">YES</td>
+            </tr>
+
+            <tr>
+                <td class="bok-3">2</td>
+                <td class="bok-3">DBMS<br>Publication date:2001<br>Page count :120<br>ISBN :-2334355</td>
+                <td class="bok-3">F. Scott Fitzgerald</td>
+                <td class="bok-3">Genration 2</td>
+                <td class="bok-3">YES</td>
+            </tr>
+            
+            <tr>
+                <td class="bok-3">3</td>
+                <td class="bok-3">Computer Network<br>Publication date:2002<br>Page count :140<br>ISBN :-9114355</td>
+                <td class="bok-3">FClassic</td>
+                <td class="bok-3">Genration 1</td>
+                <td class="bok-3">YES</td>
+                
+            </tr>
+
+
+
+            
+            <!-- Add more book entries here -->
+        </tbody>
+    </table>
+</section>
+    
+        <form id="Register" method="post">
+          <h2>Register</h2>
+          <label for="fname">First Name:</label><br>
+          <input type="text" id="fname" required><br>
+          <label for="lname">Last Name:</label><br>
+          <input type="text" id="lname" required><br>
+          <label for="fname">Date Of Birth:</label><br>
+          <input type="date" id="date"><br>
+          <label for="number">Age:</label><br>
+          <input type="number" id="number" required><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" required><br>
+          <label for="pas">Password:</label><br>
+            <input type="password" id="pas" required><br>
+            <label for="Con-pas">Confirm Password:</label><br>
+            <input type="password" id="Con-pas" required><br>
+
+            <button type="submit">Register</button>
+        </form>
+
+</body>
+</html>
